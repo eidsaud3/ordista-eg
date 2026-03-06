@@ -1,7 +1,11 @@
-from flask import Flask , render_template as template
+from flask import Flask, render_template
+import json
+
 app = Flask(__name__)
+
 @app.route('/')
 def home():
-    return template('index.html')
+    return render_template('index.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
