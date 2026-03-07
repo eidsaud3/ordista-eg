@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+.nav-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    color: #333;
+}
+h2:hover {
+    color: #0bb9f8;
+}
